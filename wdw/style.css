@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Title Section */
+  #title {
+    background-color: #f8f9fa;
+  }
+  
+  #title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #title p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #title img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Features Section */
+  #features .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #features .col-md-4 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  #features h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #features p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* Testimonials Section */
+  #testimonial {
+    background-color: #f8f9fa;
+  }
+  
+  #testimonial h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #testimonial .lead {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #testimonial footer {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  /* Pricing Section */
+  #pricing .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #pricing .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #pricing .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #pricing .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  #pricing .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  #pricing .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Section */
+  #footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #footer img {
+    max-width: 100px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  #footer p {
+    margin: 10px 0;
+  }
+  
+  #footer .mt-3 {
+    margin-top: 15px;
+  }
